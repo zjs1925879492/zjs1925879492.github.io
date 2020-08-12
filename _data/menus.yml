@@ -1,20 +1,20 @@
-- name: HOME
+- name: 主页
   url: /
   icon: home
-- name: CATEGORY
+- name: 归档
   url: /category/
   icon: "&#xe53b;"
-- name: TAGS
+- name: 标签
   url: /tags/
   icon: "&#xe893;"
-- name: LOVER
-  url: /love/
+- name: 下载
+  url: /download/
   icon: "&#xe87d;"
   color: "red"
-- name: FRIENDS
+- name: 安利墙
   url: /friends/
   icon: "&#xe8a3;"
-- name: EDITOR
+- name: 关于我
   url: /editor/
   icon: "&#xe150;"
 - name: navSearch
