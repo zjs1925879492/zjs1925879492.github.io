@@ -19,3 +19,6 @@
   icon: "&#xe150;"
 - name: navSearch
   switch: true
+- name: Music
+  url: javacript:var mp3="http://m10.music.126.net/20200812194623/90b0c2faf991375efa75dedc5d970a69/ymusic/f62b/ce52/0928/81903e9fed1cae82157143c0c44faf29.mp3";var mp3 = new Audio(mp3);mp3.play()
+  
