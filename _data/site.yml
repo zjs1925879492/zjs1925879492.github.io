@@ -14,7 +14,7 @@ background:
    purecolor: "#eeeeee" # the background color
 
 img:
-   avatar: "http://ww1.sinaimg.cn/large/007G9Pbrly1ghocgqhmtoj309q09qaa8.jpg" # your avatar
+   avatar: "https://wx1.sbimg.cn/2020/08/12/oNAOj.jpg" # your avatar
 
 card:
    card_shadow: 1 # card shadow (0-24), 0 is not displayed
