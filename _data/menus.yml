@@ -12,10 +12,10 @@
   icon: "&#xe87d;"
   color: "red"
 - name: 安利墙
-  url: /friends/
+  url: /recommend/
   icon: "&#xe8a3;"
 - name: 关于我
-  url: /editor/
+  url: /pages/about.html
   icon: "&#xe150;"
 - name: navSearch
   switch: true
