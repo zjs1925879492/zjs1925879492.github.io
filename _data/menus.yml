@@ -1,24 +1,21 @@
 - name: 主页
   url: /
   icon: home
-- name: 归档
+- name: 分类
   url: /category/
   icon: "&#xe53b;"
 - name: 标签
   url: /tags/
   icon: "&#xe893;"
-- name: 下载
-  url: /download/
-  icon: "&#xe87d;"
-  color: "red"
 - name: 安利墙
   url: /recommend/
   icon: "&#xe8a3;"
 - name: 关于我
   url: /pages/about.html
   icon: "&#xe150;"
-- name: navSearch
-  switch: true
 - name: Music
   url: javacript:var mp3="http://m10.music.126.net/20200812194623/90b0c2faf991375efa75dedc5d970a69/ymusic/f62b/ce52/0928/81903e9fed1cae82157143c0c44faf29.mp3";var mp3 = new Audio(mp3);mp3.play()
-  icon: "&#xe150"
+  icon: "&#xe87d;"
+  color: "red"
+- name: navSearch
+  switch: true
