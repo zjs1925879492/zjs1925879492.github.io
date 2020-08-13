@@ -15,4 +15,4 @@
   icon: "&#xe87d;"
   color: "red"
 - name: navSearch
-  switch: true
+  switch: false
