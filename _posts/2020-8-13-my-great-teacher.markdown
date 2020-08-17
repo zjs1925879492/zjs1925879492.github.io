@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "安利我的恩师博客"
+title:  "安利我恩师的博客"
 date:   2020-8-13 10:02:33 +0800
 categories: 安利
 tags: 安利
