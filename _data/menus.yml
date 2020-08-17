@@ -10,9 +10,6 @@
 - name: 关于我
   url: /pages/about.html
   icon: "&#xe150;"
-- name: Music
-  url: /everybed/music.html
-  icon: "&#xe87d;"
   color: "red"
 - name: navSearch
   switch: false
