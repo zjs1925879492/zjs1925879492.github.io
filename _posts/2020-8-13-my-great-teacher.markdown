@@ -4,6 +4,7 @@ title:  "安利我的恩师博客"
 date:   2020-8-13 10:02:33 +0800
 categories: 安利
 tags: 安利
+img: https://s1.ax1x.com/2020/08/17/dnKew6.png
 author: Xiang
 describe: 他是我人生的第一个导师 
 ---
