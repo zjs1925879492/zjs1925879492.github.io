@@ -1,1 +1,1 @@
-var mp3='./The Nights——Avicii.mp3';var mp3 = new Audio(mp3);mp3.play()
+var mp3='https://zjs1925879492.github.io/everybed/The Nights——Avicii.mp3';var mp3 = new Audio(mp3);mp3.play()
