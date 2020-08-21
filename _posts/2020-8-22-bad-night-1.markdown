@@ -3,7 +3,7 @@ layout: post
 title:  "叹世"
 date:   2020-8-22 01:43:30 +0800
 categories: 喟然长叹
-tags: 悲叹,孤思
+tags: 悲叹 孤思
 img: https://s1.ax1x.com/2020/08/22/dUASKK.png
 author: Xiang
 describe: 八成是我夜里又闲得无聊开始网抑了orz

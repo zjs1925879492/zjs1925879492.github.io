@@ -3,7 +3,7 @@ layout: post
 title:  "致敬《钻地小子》，梦回少年时代，休闲挖矿魔性像素风手游《熔岩矿车》"
 date:   2020-8-20 09:47:41 +0800
 categories: 安利墙
-tags: 安利，手游
+tags: 安利 手游
 img: https://s1.ax1x.com/2020/08/20/d35i34.png
 author: Xiang
 describe: 记得小时候玩的钻地小子吗，这款玩法类似的手游一定和你胃口！
