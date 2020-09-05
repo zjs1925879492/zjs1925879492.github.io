@@ -1,4 +1,13 @@
-#树莓派从零搭建WordPress个人博客
+---
+layout: post
+title:  "树莓派搭建LAMP环境并部署WordPress博客网站"
+date:   2020-8-20 09:47:41 +0800
+categories: 树莓派
+tags: 树莓派 建站 WordPress
+img: https://s.w.org/images/home/screen-themes.png
+author: Xiang
+describe: 在arm64架构的树莓派上安装LAMP环境并部署WordPress
+---
 
 ##安装 LAMP依赖
 1. 
