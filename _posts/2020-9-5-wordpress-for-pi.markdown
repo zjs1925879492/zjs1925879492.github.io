@@ -22,10 +22,12 @@ describe: 在arm64架构的树莓派上安装LAMP环境并部署WordPress
 ![wAzDht.png](https://s1.ax1x.com/2020/09/05/wAzDht.png)<br>
 
 2. 
-	```sudo touch /var/www/html/testphp.php<br>
-    sudo vim /var/www/html/testphp.php<br>
-    输入<?php phpinfo();?><br>
-	esc+:wq保存并退出```
+	```
+    sudo touch /var/www/html/testphp.php
+    sudo vim /var/www/html/testphp.php
+    输入<?php phpinfo();?>
+	esc+:wq保存并退出
+    ```
 <br>
 浏览器输入树莓派的内网ip并加+'/testphp.php'查看php是否安装成功<br>
 如图，即为成功<br>
