@@ -9,8 +9,7 @@ author: Xiang
 describe: 在arm64架构的树莓派上安装LAMP环境并部署WordPress
 ---
 
-##安装 LAMP依赖
-
+## 安装 LAMP依赖环境<br>
 1. 
 `sudo apt-get install php php-mysql php-gd apache2`
 安装Apache，PHP<br>
@@ -24,15 +23,19 @@ describe: 在arm64架构的树莓派上安装LAMP环境并部署WordPress
 
 2. 
 	```sudo touch /var/www/html/testphp.php
+
     sudo vim /var/www/html/testphp.php
+
     输入<?php phpinfo();?>
+
 	esc+:wq保存并退出```
-浏览器输入树莓派的内网ip并加+'testphp.php'查看php是否安装成功<br>
+<br>
+浏览器输入树莓派的内网ip并加+'/testphp.php'查看php是否安装成功<br>
 如图，即为成功<br>
 ![wESiuD.png](https://s1.ax1x.com/2020/09/05/wESiuD.png)<br>
 
 3. 安装mariadb
-`sudo apt -y install default-mysql-client default-mysql-server`<br>将会安装mariadb~~因为MySQL已经被mariadb替代并放弃支持~~<br>
+`sudo apt -y install default-mysql-client default-mysql-server`<br>将会安装mariadb<br>~~因为MySQL已经被mariadb替代并放弃支持~~<br>
 
 如图即为成功<br>
 ![wE9aBF.png](https://s1.ax1x.com/2020/09/05/wE9aBF.png)<br>
@@ -40,7 +43,7 @@ describe: 在arm64架构的树莓派上安装LAMP环境并部署WordPress
 `sudo mysql -u root -p`会进入数据库配置命令行<br>
 `create database wordpress;`在命令行内输入会新建一个名为wordpress的数据库<br>
 
-##部署WordPress
+## 部署WordPress
 
 1. 下载WordPress
 [WordPress中文官网](https://cn.wordpress.org "官网")<br>
