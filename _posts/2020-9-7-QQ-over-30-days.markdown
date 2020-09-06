@@ -4,7 +4,7 @@ title:  "Python脚本自动发送信息——维持QQ群聊炽焰"
 date:   2020-9-7 00:54:16 +0800
 categories: Python
 tags: Python 脚本 自动化 Windows 
-img: https://s.w.org/images/home/screen-themes.png
+img: 
 author: Xiang
 describe: QQ龙王抢不到，群聊炽焰总是断断续续怎么破？放心，巷子这里有好康的
 ---
