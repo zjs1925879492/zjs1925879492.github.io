@@ -47,6 +47,7 @@ def send_Mess(hwnd):
 一般情况下，脚本会自动寻找QQ聊天窗口的句柄
 
 3. 第三段代码：脚本主体
+
 ```
 windowtitle = '生产龙王无限公司'        #窗口标题，修改成你QQ群聊的名字（注意！！！打开多个聊天窗口时标题会变成xx等x个会话）
 hwnd = win32gui.FindWindow(None, windowtitle)         #按窗口标题寻找窗口句柄
@@ -61,6 +62,7 @@ while True:
         print('没找到%s'%windowtitle)
 
 ```
+
 windowtitle是窗口标题，修改为你想发送信息的群聊名称即可
 
 hwnd会按windowtitle寻找句柄
@@ -124,6 +126,7 @@ for h,t in hwnd_title.items():
 '''
 #如果你仍然没有成功获得窗口句柄，可以使用此段代码打印出当前所有窗口标题名与句柄
 ```
+
 复制粘贴即可完美运行
 
 ## 备注（一定要看）
