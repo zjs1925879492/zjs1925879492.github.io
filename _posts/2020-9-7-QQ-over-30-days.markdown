@@ -43,10 +43,9 @@ def send_Mess(hwnd):
     win32gui.PostMessage(hwnd,win32con.WM_KEYUP,win32con.VK_RETURN,0)
 ```
 其中hwnd参数是传入的windows窗口句柄
-
-一般情况下，脚本会自动寻找QQ聊天窗口的句柄
-
+<br>一般情况下，脚本会自动寻找QQ聊天窗口的句柄<br>
 3. 第三段代码：脚本主体
+<br>
 
 ```
 windowtitle = '生产龙王无限公司'        #窗口标题，修改成你QQ群聊的名字（注意！！！打开多个聊天窗口时标题会变成xx等x个会话）
