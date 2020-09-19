@@ -4,7 +4,7 @@ title:  "微信内置JavaScript调试台跳过青年大学习团课"
 date:   2020-9-19 13:33:02 +0800
 categories: 常用
 tags: JavaScript 前端
-img: https://s1.ax1x.com/2020/08/17/dnKew6.png
+img: https://s1.ax1x.com/2020/09/19/w55co4.png
 author: Xiang
 describe: 记录方法，以备自己以后用到 
 ---
