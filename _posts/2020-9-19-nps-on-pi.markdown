@@ -59,6 +59,7 @@ describe: 免费，不限速，方便易用的内网穿透利器！
 现在访问ip：web_port即可登录NPS网站
 
 ## 在NPS服务器端配置客户端
+
 1. 浏览器访问ip：web_port
 
 2. 输入账号密码
@@ -76,8 +77,10 @@ describe: 免费，不限速，方便易用的内网穿透利器！
 8. 按需修改压缩加密等设置
 
 9. 记录客户端验证密钥
+
 ## 安装客户端（Linux）
-1. [NPS GitHub release](https://github.com/ehang-io/nps/releases)
+
+1. 进入[NPS GitHub release](https://github.com/ehang-io/nps/releases)
 
 2. 找到对应client客户端
 
@@ -87,7 +90,7 @@ describe: 免费，不限速，方便易用的内网穿透利器！
 
 不需要修改任何配置
 
-直接使用```nohup ./npc -server=服务器端的公网IP:8024 -vkey=上一步记录的客户端验证密钥```
+直接使用```nohup ./npc -server=服务器端的公网IP:8024 -vkey=记录的客户端验证密钥```
 即可连接服务器
 
 此时再通过浏览器访问NPS服务器端即可看到当前在线的客户端
