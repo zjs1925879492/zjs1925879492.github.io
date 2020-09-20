@@ -1,0 +1,107 @@
+---
+layout: post
+title:  "懒人图形化网络管理界面——NPS"
+date:   2020-9-19 13:33:02 +0800
+categories:  安利 树莓派&Linux 网络
+tags: Linux 网络 安利 内网穿透 Go语言
+img: https://s1.ax1x.com/2020/09/20/woNH0K.png
+author: Xiang
+describe: 免费，不限速，方便易用的内网穿透利器！
+---
+
+> 轻量级、易部署、全免费、不限速、图形化的高性能内网穿透代理服务器——NPS
+
+**Stars&Forks**
+
+![](https://img.shields.io/github/stars/ehang-io/nps?style=social)
+![](https://img.shields.io/github/forks/ehang-io/nps?style=social)
+
+[官方文档](https://ehang-io.github.io/nps)
+[GitHub地址](https://github.com/ehang-io/nps/)
+
+整体采用Go语言编写，分为客户端（client）与服务器端（server）及32位与64位和Windows端与Linux发行版
+
+## 主要功能
+- 实时显示流量，系统占用，带宽等
+
+- TCP/UDP隧道、HTTP/S5代理、P2P
+
+- UI美观，web方便易用
+
+- 拥有加密、缓存、压缩、流量限制等操作
+
+- 域名解析可自定义header、host、url路由、自定义404、泛解析等
+
+- 客户端支持windows，Linux，Android三大平台
+## 所需环境
+一台有公网ip的服务器即可
+## 安装服务端（Linux）
+1. [NPS GitHub release](https://github.com/ehang-io/nps/releases)
+在这里找到对应的版本
+
+2. 使用```wget 链接```
+下载到本地
+
+3. ```tar -axvf 文件名.tar.gz```
+解压缩
+
+4. ```cd ./conf```进入nps配置文件夹
+
+5. ```vim nps.conf```修改配置文件
+
+6. 修改web_password
+
+7. 修改web_port等防止端口冲突
+
+
+8. ```cd ..&&nohup ./nps```即可运行
+
+现在访问ip：web_port即可登录NPS网站
+
+## 在NPS服务器端配置客户端
+1. 浏览器访问ip：web_port
+
+2. 输入账号密码
+
+3. 登录后台
+
+4. 在右侧点击客户端
+
+5. 新建一个客户端
+
+6. 按需填写备注，basic用户名与密码
+
+7. 客户端验证密钥可不填但会随机生成
+
+8. 按需修改压缩加密等设置
+
+9. 记录客户端验证密钥
+## 安装客户端（Linux）
+1. [NPS GitHub release](https://github.com/ehang-io/nps/releases)
+
+2. 找到对应client客户端
+
+3. 下载
+
+4. 解压
+
+不需要修改任何配置
+
+直接使用```nohup ./npc -server=服务器端的公网IP:8024 -vkey=上一步记录的客户端验证密钥```
+即可连接服务器
+
+此时再通过浏览器访问NPS服务器端即可看到当前在线的客户端
+
+## 创建隧道
+1. 记录客户端ID
+
+2. 新建任意隧道
+
+3. 填写客户端ID
+
+4. 剩下的按需填写即可
+## 所有链接
+
+[NPS GitHub release](https://github.com/ehang-io/nps/releases)
+
+[NPS 中文文档](https://ehang-io.github.io/nps)
