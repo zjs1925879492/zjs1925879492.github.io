@@ -2,7 +2,7 @@ head:
    favicon: "/favicon.gif" #  the favicon
    high_res_favicon: "/favicon.gif" #  the favicon using high quality format
    apple_touch_icon: "/favicon.gif" # the iOS Home button icon
-   keywords: "长安小巷的网络鸟窝" #  the site keywords
+   keywords: "巷子的鸟窝" #  the site keywords
 
 uiux:
    android_chrome_color: "#eeeeee" #  the color of the Chrome address bar
@@ -14,7 +14,7 @@ background:
    purecolor: "#eeeeee" # the background color
 
 img:
-   avatar: "https://wx1.sbimg.cn/2020/08/12/oNAOj.jpg" # your avatar
+   avatar: "https://s1.ax1x.com/2020/09/25/0CQNN9.jpg" # your avatar
 
 card:
    card_shadow: 1 # card shadow (0-24), 0 is not displayed
