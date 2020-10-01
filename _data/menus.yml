@@ -7,9 +7,12 @@
 - name: 标签
   url: /tags/
   icon: "&#xe893;"
+- name: 备忘录
+  url: /memo/index.html
+  icon: "&#xe893;"
 - name: 关于我
   url: /pages/about.html
   icon: "&#xe150;"
   color: "red"
 - name: navSearch
-  switch: false
+  switch: true
