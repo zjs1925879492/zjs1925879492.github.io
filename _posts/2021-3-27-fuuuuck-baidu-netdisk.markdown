@@ -21,7 +21,7 @@ describe: 去你妈的百度网盘限速！！！
 
 [![cSme9s.png](https://z3.ax1x.com/2021/03/27/cSme9s.png)](https://imgtu.com/i/cSme9s)
 
-点击右上角[![cSmncq.png](https://z3.ax1x.com/2021/03/27/cSmncq.png)](https://imgtu.com/i/cSmncq)
+点击左上角[![cSmncq.png](https://z3.ax1x.com/2021/03/27/cSmncq.png)](https://imgtu.com/i/cSmncq)
 
 选中百度网盘
 
@@ -37,4 +37,4 @@ describe: 去你妈的百度网盘限速！！！
 
 若能看到百度网盘正占用大量网络资源时即成功
 
-理论上来说无限时间！
+理论上来说可加速下载无限时间！
