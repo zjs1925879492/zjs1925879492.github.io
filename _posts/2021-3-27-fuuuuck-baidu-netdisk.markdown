@@ -1,40 +1,49 @@
 ---
 layout: post
-title:  "去他妈的百度网盘限速"
-date:   2021-3-20 00:23:44 +0800
+title:  "Kinhdown在线解析，实现百度网盘高速下载"
+date:   2021-8-12 22:16:13 +0800
 categories: 网络
-tags: 百度网盘 CE 内存修改
+tags: 百度网盘 Aria2
 img: 
 author: Xiang
-describe: 去你妈的百度网盘限速！！！
+describe: 之前使用CE变速的方法并不安全……容易导致被百度云关进小黑屋
 ---
 
-> 真的，百度网盘限速是真的恶心！
+[Knhdown官网](https://www.kinh.cc/)
 
-本文不涉及任何毒盘下载器，~~Pandownload，亿寻~~等
+点进去能看到很多网址，如图
 
-你只需要一个软件
+[![fBiLH1.png](https://z3.ax1x.com/2021/08/12/fBiLH1.png)](https://imgtu.com/i/fBiLH1)
 
-# CE修改器
+本篇主要讲利用Kinhdown解析百度网盘，实现百度网盘高速下载
 
-万物皆能改
+……
 
-[![cSme9s.png](https://z3.ax1x.com/2021/03/27/cSme9s.png)](https://imgtu.com/i/cSme9s)
+[Kinhdown百度网盘解析地址](https://baidu.kinh.cc/)
 
-点击左上角[![cSmncq.png](https://z3.ax1x.com/2021/03/27/cSmncq.png)](https://imgtu.com/i/cSmncq)
+[![fBFuvQ.png](https://z3.ax1x.com/2021/08/12/fBFuvQ.png)](https://imgtu.com/i/fBFuvQ)
 
-选中百度网盘
+如图，输入分享链接和提取密码，如果想下载自己的文件的话，可以自己设置分享此文件。拿到分享链接和提取码后来这里解析下载即可满速。
 
-开启变速精灵，将速度调为0
 
-去百度网盘里开始下载任务
+举个栗子
 
-试用60秒VIP加速
+[![fBkmIx.png](https://z3.ax1x.com/2021/08/12/fBkmIx.png)](https://imgtu.com/i/fBkmIx)
 
-此时你会发现VIP加速倒计时并未减少
+点击下载
 
-打开任务管理器
+[![fBAu0s.png](https://z3.ax1x.com/2021/08/12/fBAu0s.png)](https://imgtu.com/i/fBAu0s)
+[![fBA8pT.png](https://z3.ax1x.com/2021/08/12/fBA8pT.png)](https://imgtu.com/i/fBA8pT)
 
-若能看到百度网盘正占用大量网络资源时即成功
+耐心等待即可
 
-理论上来说可加速下载无限时间！
+[![fBAa7R.png](https://z3.ax1x.com/2021/08/12/fBAa7R.png)](https://imgtu.com/i/fBAa7R)
+
+成功！
+
+强烈推荐使用Aria2NG下载，[Kinhdown百度网盘解析地址](https://baidu.kinh.cc/)
+下面有Aria2NG下载链接
+
+全篇基本都是傻瓜式操作……
+
+水篇博客真不错
