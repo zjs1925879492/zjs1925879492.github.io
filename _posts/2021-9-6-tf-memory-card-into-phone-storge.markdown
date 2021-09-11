@@ -75,6 +75,7 @@ describe: 存储空间不够用，但是储存卡却只能储存视频照片之�
 ### 没辙了
 
 华为系统设置中 储存一项里可以更改默认储存位置……
+![在这里插入图片描述](https://img-blog.csdnimg.cn/df1e361c70e8496b8b6d3bb9d4de64d8.jpg?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA6ZW_5a6J5bCP5be3,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center)
 
 可以把默认储存位置改到SD卡，设置完成后手机会重启，之后一部分APP缓存似乎可以放到SD卡里了，也算个成功吧
 
