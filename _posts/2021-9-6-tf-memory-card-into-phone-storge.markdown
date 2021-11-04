@@ -6,7 +6,7 @@ categories: Android
 tags: Android
 img: 
 author: Xiang
-describe: 存储空间不够用，但是储存卡却只能储存视频照片之类的，面对打应用还是派不上用场……
+describe: 存储空间不够用，但是储存卡却只能储存视频照片之类的，面对大应用还是派不上用场……
 ---
 
 手机：华为荣耀9（备用机）
